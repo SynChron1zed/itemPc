@@ -1,0 +1,192 @@
+
+.normal {
+
+}
+
+.header {
+  background-color: #181b2e;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+}
+
+.inner {
+
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding: 15px 25px;
+
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 35px;
+    -webkit-transition: color .15s ease;
+    transition: color .15s ease;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    letter-spacing: .075em;
+    margin-right: 1.8em;
+    font-size: 16px;
+    &:hover {
+      color: #fff;
+    }
+    &.active {
+      color: #fff;
+      font-weight: 400;
+    }
+    &:nth-child(6) {
+      margin-right: 0;
+    }
+  }
+
+  .github {
+    color: #fff;
+    font-size: .9em;
+    margin: 0;
+    float: right;
+  }
+}
+
+
+.logo {
+  background: url(../assets/logo1.png) no-repeat;
+  width: 24px;
+  height: 36px;
+  background-size: 24px 36px;
+  margin-right: 35px;
+  display: inline-block;
+  vertical-align: middle;
+
+
+}
+
+.view {
+
+  position: fixed;
+  top: 64px;
+  left: 220px;
+}
+
+@media (max-width: 860px) {
+  .header .inner {
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .header {
+    .inner {
+      padding:  15px 25px;
+    }
+    a {
+      margin-right: 1em;
+    }
+    .github {
+      display: none;
+    }
+  }
+}
+
+.dataBody{
+  height: 100%;
+  width: 175px;
+  position: fixed;
+  top: 65px;
+}
+
+.dataOne{
+  height: 100%;
+  background:#1e264b;
+  color: white;
+  :hover{
+     color: #fed101;
+  }
+
+}
+
+.dataTwo{
+  border-bottom: 1px solid #9e9e9e;
+
+}
+.dataText{
+  color: white;
+  margin-left: 28px;
+
+}
+
+.dataText2{
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.ul{
+
+
+  :hover{
+    color: black;
+  }
+}
+
+.headInnev{
+  margin-left: -15px;
+  line-height: 36px;
+}
+.todata{
+  width: 175px;
+  margin-left: -28px;
+  background-color: #1e264b;
+
+}
+
+.newtodata{
+  width: 175px;
+  margin-left: -28px;
+
+
+}
+
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #108ee9;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px;
+}
+
+#components-layout-demo-custom-trigger .ant-layout-sider-collapsed .anticon {
+  font-size: 16px;
+}
+
+#components-layout-demo-custom-trigger .ant-layout-sider-collapsed .nav-text {
+  display: none;
+}
+
+.leftitem{
+  margin-top: 64px;
+}
+
+.headItem{
+  background: #404040;
+  padding: 0 0px;
+  height: 64px;
+  line-height: 64px;
+  position: absolute;
+  width: 100%;}
