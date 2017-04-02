@@ -30,10 +30,7 @@ var Holiday = React.createClass({
 
   render: function() {
     return (
-      <Layouty>
         <div>2222</div>
-
-      </Layouty>
     )
 
 

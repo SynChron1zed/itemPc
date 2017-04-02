@@ -8,10 +8,10 @@ import Holiday from './routes/Holiday';
 function RouterConfig({ history }) {
   return (
     <Router history={history}>
-      <Route path="/" component={IndexPage} />
-      <Route path="/layouty" component={Layouty} />
-      <Route path="/itemplay" component={ItemPlay} />
-      <Route path="/holiday" component={Holiday} />
+      <Route path="/" component={Layouty}>
+        <Route path="itemplay" component={ItemPlay} />
+        <Route path="holiday" component={Holiday} />
+      </Route>
     </Router>
   );
 }
