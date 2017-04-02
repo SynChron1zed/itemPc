@@ -27,10 +27,7 @@ var ItemPlay = React.createClass({
 
   render: function() {
     return (
-      <Layouty>
        <div>qqq</div>
-
-      </Layouty>
     )
 
 
