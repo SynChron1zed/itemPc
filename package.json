@@ -16,7 +16,8 @@
     "dva": "^1.2.1",
     "echarts": "^3.4.0",
     "react": "^15.4.0",
-    "react-dom": "^15.4.0"
+    "react-dom": "^15.4.0",
+    "react-swiper": "^0.1.5"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -25,7 +26,7 @@
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "^2.2.npm run dev3",
     "eslint-plugin-react": "^6.8.0",
     "expect": "^1.20.2",
     "husky": "^0.12.0",
